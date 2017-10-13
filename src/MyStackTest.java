@@ -3,6 +3,11 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class MyStackTest {
+	
+	@Test
+	public void failingTest() {
+		assertTrue(false);
+	}
 
 
 	@Test 
